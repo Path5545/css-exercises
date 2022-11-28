@@ -8,7 +8,8 @@
     color: #000000;
 }
 
-.first.second{
+.first,
+.second{
     font-size: 28px;
     font-family: Helvetica, "New Times Roman" sans-serif;
 }
