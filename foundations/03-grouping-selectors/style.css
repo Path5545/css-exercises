@@ -1,0 +1,9 @@
+.first {
+    background-color: hsla(360, 100%, 0%, 100%);
+    color: #ffffff;
+}
+
+.second {
+    background-color: rgb(200, 200, 100);
+    color: #000000;
+}
