@@ -4,9 +4,12 @@
 }
 
 /*
-One error I made in this exercise was not putting quotation marks around "DejaVu Sans" font.
-This needed to be in quotation marks because there is an empty space in between the name
--unlike sans-serif for example which has a '-' and contains no empty space.
+One error I made in this exercise was 
+not putting quotation marks around "DejaVu Sans" font.
+This needed to be in quotation marks 
+because there is an empty space in between the name
+-unlike sans-serif for example which has a '-' 
+and contains no empty space.
 */
 #two {
     color: #0000ff;
@@ -16,6 +19,14 @@ This needed to be in quotation marks because there is an empty space in between 
 .special {
     font-size: 24px;
 }
+
+/*
+Elements 'number 3' and 'number 4' 
+in the HTML file share the same font size 
+thus could have given 'number 4' 
+a class value of 'special' as well 
+to help reduce duplicate code
+*/
 
 #four {
     background-color: #00ff0030;
