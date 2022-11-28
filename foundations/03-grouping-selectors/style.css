@@ -4,6 +4,11 @@
 }
 
 .second{
-    background-color: rgb(200, 200, 100);
+    background-color: rgb(200, 200, 25);
     color: #000000;
+}
+
+.first.second{
+    font-size: 28px;
+    font-family: Helvetica, "New Times Roman" sans-serif;
 }
