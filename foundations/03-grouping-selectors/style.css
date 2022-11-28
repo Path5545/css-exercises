@@ -8,6 +8,10 @@
     color: #000000;
 }
 
+/* 
+syntax below is an example of grouping selectors
+*/
+
 .first,
 .second{
     font-size: 28px;
