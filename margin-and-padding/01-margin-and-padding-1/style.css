@@ -26,3 +26,6 @@ body {
   padding: 32px;
   margin-left: 330px;
 }
+
+/* NTS: margin-left could also have had the value
+'auto' in order to align div three left */
