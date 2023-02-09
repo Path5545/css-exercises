@@ -3,8 +3,8 @@ body {
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 .title {
@@ -17,8 +17,14 @@ img {
 .items {
   display: flex;
   justify-content: center;
+  gap: 52px;
+  margin: 32px;
 }
 
+.text {
+  flex-wrap: wrap;
+  align-content: center;
+}
 
 /* do not edit this footer */
 .footer {
