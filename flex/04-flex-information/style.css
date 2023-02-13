@@ -1,25 +1,33 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  /* text-align: center; [this centers the item texts]  */
 }
 
 img {
-  width: 200px;
-  height: 200px;
+  width: 200px; /* width: 100px [to make items only 200px as in the brief check code for class 'item'] */
+  height: 200px; /* height: 100px */
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
-  display: flex;
-  justify-content: center;
+  display: flex; /* [inefficient code] */
+  justify-content: center; /* [inefficient code] */
+  /* margin-bottom: 32px; [set space between the title and the 'items as on brief] */
 }
 
 .items {
-  display: flex;
-  justify-content: center;
-  gap: 52px;
-  margin: 32px;
+  display: flex; /* correct */
+  justify-content: center; /* [correct */
+  gap: 52px; /* correct */
+  margin: 32px; /* [inefficient code] */
 }
+
+/*
+.item {
+  max-width: 200px;
+}
+*/
 
 .text {
   flex-wrap: wrap;
