@@ -51,6 +51,10 @@ body {
   margin-left: auto;
 }
 
+.header {
+  font-weight: bold;
+}
+
 button {
   padding: 8px 16px;
   border-radius: 8px;
